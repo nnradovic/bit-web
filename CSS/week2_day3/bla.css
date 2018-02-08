@@ -1,0 +1,26 @@
+
+*{
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+@font-face{
+    font-family:'uros';
+    src:url('uros/RammettoOne-Regular.ttf');
+}
+#sit{font-family:uros,georgia,serif; text-decoration:line-through;}
+
+
+
+
+
+#lorem{font-size:0.6em;font-family:arial,serif;
+     color:red}
+#ipsum{font-style:oblique;font-family:verdana,sans-serif;
+color:greenyellow}
+#dolor{font-size:100px ;font-family:Courier , monospace;
+color: blue}
+span{
+    font-size:30px;
+    font-style:italic;
+}
