@@ -1,0 +1,31 @@
+ol{
+    list-style: circle;
+}
+
+ul{
+    list-style: square;
+}
+
+ul:nth-of-type(2){
+    background: red;
+    list-style: circle;
+}
+
+
+
+ol:nth-child(2){
+    list-style-type: upper-alpha;
+}
+
+ul:nth-child(4){
+     list-style-type: upper-roman;
+}
+
+.img {
+    list-style-image: url("slika.png");
+    width: 200px;
+}
+#second {
+
+list-style-position: inside;
+}

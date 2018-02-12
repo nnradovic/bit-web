@@ -1,0 +1,31 @@
+img{
+    height: 100px;
+    margin: 15px 0;
+    
+}
+
+thead{
+    background-color:red;
+    
+}
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border-bottom: 1px solid black
+}
+
+td{
+padding:10px 10px; 
+
+}
+
+
+
+tr:nth-child(even)  {
+    background-color: lightslategrey;
+}
+
+tr:hover{
+    background-color: yellow;
+}

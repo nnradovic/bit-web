@@ -1,0 +1,48 @@
+label,input{
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+
+}
+form{
+    background-color:#EEEEEE;
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius:20px 0 20px 0;
+}
+div {
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2D3E50;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 5px;
+    font-size: 55px;
+}
+span{
+    color:#FFBE00;
+}
+hr{
+    margin-bottom: 30px;
+}
+input {
+    width: 100%;
+    border-radius: 8px;
+    border: 0;
+}
+#submit{
+    background-color: #C1392B;
+    margin-top: 30px;
+    border:0;
+    color:white;
+}
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    padding-left: 10px;
+}
