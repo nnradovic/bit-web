@@ -1,0 +1,29 @@
+#first{
+    position: relative;
+    top:50px;
+    left:100px;
+    margin-bottom: 150px;
+
+    
+}
+
+#second{
+    position: absolute;
+    right: 10px;
+    top:15px;
+}
+
+#third{
+    position: fixed;
+    bottom: 0px;
+}
+
+a{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    color:red;
+    font-size: 20px;
+    background-color: black;
+    
+}
