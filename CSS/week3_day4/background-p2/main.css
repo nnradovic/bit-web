@@ -1,0 +1,8 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-0.3.5&s=4bd802149cee8454968fa94346c8d590&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: contain;
+    color: rgb(24, 197, 197);
+}
