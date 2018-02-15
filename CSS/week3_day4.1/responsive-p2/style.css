@@ -1,0 +1,132 @@
+#container {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 90%;
+}
+
+.main {
+    margin-bottom: 20px;
+}
+
+
+ul {
+    padding: 0px;
+    width: 570px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    border: 1px solid gray;
+    margin-bottom: 1px;
+    padding: 10px 0px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  
+}
+
+li:last-child {
+    margin-bottom: 30px;
+}
+
+li:hover {
+    background-color: #60b5e0;
+    color: white;
+}
+
+p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width:576px) {
+    #header {
+        position: relative;
+    }
+    ul>li {
+        position: absolute;
+        width: 80px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        border-radius: 4px;
+        top: 30px;
+    }
+    ul>li:nth-child(1) {
+        right: 200px;
+    }
+    ul>li:nth-child(2) {
+        right: 110px;
+    }
+    ul>li:nth-child(3) {
+        right: 16px;
+    }
+    li {
+        padding: 2px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #60b5e0;
+        border: none;
+    }
+    li:hover {
+        background-color: #60b5e0;
+        border-color: #60b5e0;
+    }
+    h1 {
+        float: left;
+    }
+    .imageheader {
+        width: 100%;
+        clear: both;
+    }
+    .article>img {
+        float: left;
+        width: 50%;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+    .article>p {
+        overflow: auto;
+        width: 50%;
+        margin-bottom: 10px;
+        box-sizing: 44%;
+    }
+}
+
+@media (min-width:748px) {
+    section{
+        margin: 0 auto;;
+    }
+    .article {
+        float: left;
+        width: 33%;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+    .article>img {
+       padding-left: 10%;
+       width: 80%;
+    
+
+    
+    }
+  
+    .article>p{
+        width: 80%;
+        /* margin: 0 auto; */
+      
+    }
+}
