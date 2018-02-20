@@ -1,0 +1,10 @@
+$boja:rgb(90, 84, 146);
+$velicinaSlova:32px;
+$bojaSlova:rgb(240, 219, 28);
+
+
+p {
+    background-color: $boja;
+    font-size: $velicinaSlova;
+    color: $bojaSlova;
+}
