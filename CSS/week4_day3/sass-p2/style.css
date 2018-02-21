@@ -1,0 +1,21 @@
+body {
+  width: 100%; }
+
+.all, .first, .second, .third {
+  border: 2px solid;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px; }
+
+.first {
+  border-color: red;
+  width: 50%; }
+
+.second {
+  border-color: blue;
+  width: 25%; }
+
+.third {
+  border-color: green;
+  width: 66.6666666667%; }
+
+/*# sourceMappingURL=style.css.map */
