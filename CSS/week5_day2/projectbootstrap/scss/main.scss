@@ -1,0 +1,272 @@
+$green:#18bc9c;
+$blue:#2c3e50;
+$contact:#495057;
+@font-face {
+    font-family: Lato-Bold;
+    src: url("../vendor/font-awesome/Lato-Black.ttf");
+}
+
+@font-face {
+    font-family: Lato-Black;
+    src: url("../vendor/font-awesome/Lato-Bold.ttf");
+}
+
+// NAVIGATION
+.menu {
+    font-size: 16px;
+    font-family: "Lato-Black";
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 0;
+    vertical-align: middle;
+    color: white;
+  
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+// HEADER
+header {
+    color: white;
+    background-color: $green;
+    text-align: center;
+    height: 480px;
+
+}
+
+.navbar-toggler-icon {
+    width: 16px;
+}
+
+.navbar-toggler {
+    background-color: $green;
+}
+
+.navbar-light .navbar-brand {
+    font-family: Lato-Black;
+}
+
+hr {
+    border: 2px solid;
+    display: inline;
+}
+
+.navigation {
+    background-color: $blue;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+header>img {
+    padding: 40px 0px 15px 0;
+}
+
+header>h1 {
+    font-family: Lato-Bold;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header>h3 {
+    margin: 20px 0;
+    font-family: Lato-Bold;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+//PORTFOLIO
+main>h2 {
+    text-align: center;
+}
+
+.img-fluid {
+    margin-bottom: 15px;
+}
+
+main {
+    height: 1900px;
+}
+
+//ABOUT
+section {
+    background-color: $green;
+    color: white;
+    font-family: Lato-Black;
+    height: 500px;
+    padding-top: 50px;
+}
+
+section h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.text {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.btninfo {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    font-family: Lato-Black;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+
+button>p {
+    display: inline;
+    padding-left: 5px;
+}
+
+.info {
+    margin-right: 5px;
+}
+
+//CONTACT
+contact h2 {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+input{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    border:none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+textarea{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    border:none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px; 
+}
+
+.contact{
+  width: 100%;
+ 
+
+label{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    font-family: Lato-Bold;
+    font-size: 24px;
+    color: gray;
+}
+.send{
+    background-color: $green;
+    color: white;
+    padding: 10px 15px;
+    font-family: Lato-Black;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: $green;
+    color: white;
+}
+
+.sendbtn{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+}
+
+.footer{
+    background-color: $blue;
+    color: white;
+    font-family: Lato-Black;
+    height: 650px;
+}
+
+.footer h2{
+   padding: 30px 0;
+   font-family: Lato-Bold;
+   font-size: 30px;
+}
+
+.footer p{
+    font-family: Lato-Black;
+    font-size: 20px;
+}
+.social{
+    font-size: 20px;
+}
+.social {
+    
+   transform: scale(1.5)
+   
+}
+.copy>p{
+    font-family: Lato-Black;
+    font-size: 16px;
+    margin-bottom: 0px;  
+}
+
+.note{
+    font-family: Lato-Black;
+    font-size: 14px;  
+    color:gray;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.test{
+    border:2px solid white;
+    margin-top: 10px;
+    width: 100%;
+}
+.test1{
+    border:2px solid black;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#star{
+    font-size: 20px;
+}
+@media (min-width:768px){
+    main {
+        height:850px;
+    }
+
+    .footer{
+        height: 500px;
+        
+    }
+}
+
+@media (min-width:992px){
+    main {
+        height:450px;
+    }
+
+    .footer{
+        height: 400px;
+        
+    }
+
+}
