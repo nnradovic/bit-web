@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: #0212fe;
+    background-image: url(./images/bg.jpg);
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+    width: 100%;
+    height: 960px;;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    height: 160px;
+    bottom: 85px;
+    left: 700px;
+}
+
+#runningRight {
+    display: none;
+    left: 700px;
+}
+
+#runningLeft{
+    display: none;
+    left: 700px;
+}
+
+
+#jumping {
+    display: none;
+    height: 160px;
+    left:700px;
+}
