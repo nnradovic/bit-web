@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        .bottomBorder {
+            border-bottom: 1px solid black;
+        }
+
+        .textTransform {
+            text-transform: uppercase;
+        }
+
+        .fontColor {
+            color: green;
+        }
+
+        .bgColor{
+            background-color: indianred;
+        }
+
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>google</li>
+        <li>facebook</li>
+        <li>instagram</li>
+        <li>twitter</li>
+        <li>Myspace</li>
+    </ul>
+    <script>
+        
+        $(function () { 
+            $('li').click(function(){
+                console.log('sdfljs');
+                
+                $(this).addClass("fontColor");
+                
+            })
+            var middleListItem = ($('li').length - 1) / 2;
+            
+            $('li:first').addClass('bottomBorder');
+            $('li').addClass('textTransform');
+            $('li.active').addClass('fontColor');
+            $('li:eq('+middleListItem+')').addClass('bgColor');
+        })
+
+        
+
+
+
+</script>
+</body>
+
+</html>
