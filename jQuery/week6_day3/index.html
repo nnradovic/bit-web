@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.min.css">
+
+    <style>
+        #box {
+            width: 200px;
+            height: 200px;
+
+            position: absolute;
+            border: 2px solid black
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="box"></div>
+
+    </div>
+
+
+    <div class="owl-carousel">
+        <div><img src="http://via.placeholder.com/300x300"> </div>
+        <div><img src="http://via.placeholder.com/400x300"> </div>
+        <div><img src="http://via.placeholder.com/300x200"> </div>
+        <div><img src="http://via.placeholder.com/500x200"> </div>
+        <div><img src="http://via.placeholder.com/300x250"> </div>
+        <div><img src="http://via.placeholder.com/340x200"> </div>
+        <div><img src="http://via.placeholder.com/304x200"> </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="jquery.min.js"></script> -->
+    <script src="owlcarousel/dist/owl.carousel.min.js"></script>
+    <script>
+        $(function () {
+            var num1 = Math.floor(Math.random() * 255);
+            var num2 = Math.floor(Math.random() * 255);
+            var num3 = Math.floor(Math.random() * 255);
+            console.log(num1, num2, num3);
+
+            $("#box").on("click", function () {
+
+                $(this).animate({
+                    top: "200px",
+                    left: "100px",
+                    width: "1400px",
+
+                }, 800, function () {
+                    $('#box').css({
+                        background: 'rgb(' + num1 + ',' + num2 + ',' + num3 + ')'
+                    }).fadeOut(2000).fadeIn(1000)
+                })
+
+            })
+
+
+            $(".owl-carousel").owlCarousel();
+
+
+
+
+        })
+    </script>
+</body>
+
+</html>
